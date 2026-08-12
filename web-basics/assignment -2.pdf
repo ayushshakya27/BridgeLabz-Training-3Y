@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My First Web Page</title>
+</head>
+
+<body>
+
+    <h1>My First Web Page</h1>
+
+    <hr>
+
+    <p>
+        Hi, my name is Ayush Shakya. I am a student who is interested in
+        technology and programming. I enjoy learning web development, SQL, Python,
+        and exploring new concepts in computer science.
+    </p>
+
+    <h2>Google</h2>
+
+    <hr>
+
+    <a href="https://www.google.com" target="_blank">Click me</a>
+
+    <h2>My Favorite Cartoon Character</h2>
+
+    <hr>
+
+    <img src="https://i.postimg.cc/kgFy7KSs/goku.png" alt="Goku on Flying Nimbus" width="300">
+
+    <h2>My Favorite Hobby</h2>
+
+    <hr>
+
+    <p>
+        One of my favorite hobbies is <strong>traveling</strong>. I also
+        <em>enjoy</em> gaming and spending time in the mountains whenever I get free time.
+    </p>
+
+    <h2>Two Sentences with Line Break</h2>
+
+    <hr>
+
+    <p>
+        I started learning HTML and Python a few months ago.<br>
+        It has become one of my favorite subjects to explore.
+    </p>
+
+    <h2>Meaningful Quote</h2>
+
+    <hr>
+
+    <blockquote>
+        "The only way to do great work is to love what you do."
+        <br>&mdash; Steve Jobs
+    </blockquote>
+
+    <h2>Heading Levels</h2>
+
+    <hr>
+
+    <h1>Ujjwal Pratap Singh</h1>
+    <h2>Student</h2>
+    <h3>Gaming, Traveling, and Mountains</h3>
+
+    <h2>Mark and Small Tag</h2>
+
+    <hr>
+
+    <p>
+        My <mark>favorite programming languages</mark> are SQL and Python,
+        because they help me work with data and build useful projects.
+        <small>(Updated recently)</small>
+    </p>
+
+    <h2>Strong and Em Together</h2>
+
+    <hr>
+
+    <p>
+        I <strong>truly enjoy</strong> traveling to new places, and I always
+        try to explore <em>mountains</em> whenever I get the chance.
+    </p>
+
+    <h2>Inline Code</h2>
+
+    <hr>
+
+    <p>
+        In JavaScript, you can print "Hello World" using
+        <code>console.log("Hello World");</code>
+    </p>
+
+    <h2>Span Elements</h2>
+
+    <hr>
+
+    <p>
+        My favorite interests are
+        <span>SQL</span>,
+        <span>Python</span>, and
+        <span>Gaming</span> —
+        each one keeps me curious and motivated to learn more.
+    </p>
+
+    <h2>Creative Paragraph with Inline Elements</h2>
+
+    <hr>
+
+    <p>
+        Welcome to my <strong>journey</strong> of learning! <em>Every day</em>
+        I discover something new.<br>
+        My current favorite topic is <mark>Python and SQL</mark>.
+        <small>(Last updated: 2025)</small>
+    </p>
+
+    <h2>Website Header Section</h2>
+
+    <hr>
+
+    <header>
+        <h1>ayush shakya </h1>
+    </header>
+
+    <h2>Navigation Section</h2>
+
+    <hr>
+
+    <nav>
+        <a href="#">Home</a> |
+        <a href="#">About</a> |
+        <a href="#">Contact</a>
+    </nav>
+
+    <h2>Main Section</h2>
+
+    <hr>
+
+    <main>
+
+        <p>
+            Hi, I am ayush shakya  . This page is about who I am and what
+            I enjoy doing, including SQL, Python, traveling, gaming, and mountains.
+        </p>
+
+        <section>
+            <h2>+- Me</h2>
+            <p>
+                I am a student who loves working with SQL and Python. Apart from
+                coding, I enjoy traveling to new places, playing games, and
+                spending time in the mountains whenever possible.-
+            </p>
+        </section>
+
+        <article>
+            <h2>My First Blog</h2>
+            <p>
+                Today I wrote my very first webpage using pure HTML! It was
+                exciting to see how simple tags like headings, paragraphs, and
+                links come together to form a complete page. I can't wait to
+                learn CSS and JavaScript next to make my pages even more interactive.
+            </p>
+        </article>
+
+        <aside>
+            <h2>Useful Links</h2>
+            <a href="#" target="_blank">My Portfolio</a><br>
+            <a href="https://www.google.com" target="_blank">Google</a>
+        </aside>
+
+    </main>
+
+    <h2>Footer Section</h2>
+
+    <hr>
+
+    <footer>
+        <p>&copy; 2025 Ayush Shakya . All Rights Reserved.</p>
+    </footer>
+
+</body>
+
+</html>

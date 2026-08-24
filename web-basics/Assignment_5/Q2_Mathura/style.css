@@ -1,0 +1,116 @@
+/* Basic reset */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    font-family: Arial, sans-serif;
+    color: #222;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+    background: #4a1942;
+    color: white;
+    border-bottom: 4px solid #f4a261;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+nav a:hover { color: #f4a261; }
+
+section {
+    width: 100%;
+    min-height: 60vh;
+    padding: 80px 10%;
+    border-bottom: 5px solid white;
+}
+
+section h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+section p {
+    max-width: 800px;
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+    line-height: 1.7;
+}
+
+/* Linear gradient + fixed background */
+.home {
+    color: white;
+    background: linear-gradient(120deg, #6a0572, #ab83a1, #f4a261);
+    background-attachment: fixed;
+    text-align: center;
+    padding-top: 120px;
+}
+
+.home h2 { font-size: 3.5rem; font-weight: 800; }
+.home p { margin: auto; }
+
+/* Radial gradient */
+.about {
+    background: radial-gradient(circle, #fff3b0, #f4a261);
+}
+
+/* Second fixed-background section */
+.places {
+    background: #f8f1e5;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.box {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    min-height: 170px;
+    margin: 15px;
+    padding: 25px;
+    background: white;
+    border: 3px solid #6a0572;
+    border-radius: 10px;
+}
+
+.box h3 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.box p { font-size: 1rem; }
+
+.culture {
+    background: #fff8e7;
+    text-align: center;
+}
+
+.culture h2 { font-size: 2.2rem; font-weight: 600; }
+
+footer {
+    padding: 25px;
+    background: #4a1942;
+    color: white;
+    text-align: center;
+}
+
+@media (max-width: 700px) {
+    nav a { display: block; margin: 10px; }
+    section { padding: 60px 7%; }
+    .home h2 { font-size: 2.5rem; }
+    .box { width: 90%; margin: 10px auto; }
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Submission</title>
+</head>
+<body>
+
+    <h1>My Form</h1>
+
+    <form target="result" onsubmit="this.nextElementSibling.srcdoc='<p>Form successfully submitted.</p>'; return false;">
+        <input type="text" placeholder="Enter your name" required>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <br>
+
+    <iframe name="result" width="500" height="100"></iframe>
+
+</body>
+</html>

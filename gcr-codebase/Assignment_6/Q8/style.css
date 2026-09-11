@@ -1,0 +1,37 @@
+body {
+    font-family: Arial;
+    background: #eee;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+figure {
+    margin: 0;
+    background: white;
+    text-align: center;
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+figure:hover img {
+    transform: scale(1.05);
+}
+
+figcaption {
+    padding: 10px;
+}

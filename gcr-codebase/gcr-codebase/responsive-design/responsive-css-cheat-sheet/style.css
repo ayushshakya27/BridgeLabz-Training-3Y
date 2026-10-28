@@ -1,0 +1,13 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; color: #26364a; background: #f3f6fb; }
+header, footer { text-align: center; padding: 24px 16px; }
+header h1 { margin: 0 0 8px; }
+header p, footer { color: #68798e; }
+.cheat-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; max-width: 1150px; margin: 0 auto; padding: 18px 24px 36px; }
+.cheat-item { padding: 22px; border: 1px solid #e0e8f1; border-radius: 12px; background: white; box-shadow: 0 4px 14px #20395610; transition: transform .25s ease, box-shadow .25s ease, background .25s ease; }
+.cheat-item:hover { transform: translateY(-4px); background: #f8fcff; box-shadow: 0 9px 22px #2039561c; }
+.cheat-item h2 { margin: 0 0 10px; color: #176b87; font-size: 1.15rem; }
+.cheat-item p { color: #5f7085; line-height: 1.55; }
+code { display: block; margin-top: 14px; padding: 10px; overflow-wrap: anywhere; border-radius: 7px; background: #edf3f9; color: #17324d; font-size: .85rem; }
+@media (max-width: 950px) { .cheat-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 700px) { .cheat-grid { grid-template-columns: 1fr; padding: 16px; } .cheat-item { display: flex; flex-direction: column; gap: 6px; } .cheat-item h2 { margin-bottom: 2px; } }

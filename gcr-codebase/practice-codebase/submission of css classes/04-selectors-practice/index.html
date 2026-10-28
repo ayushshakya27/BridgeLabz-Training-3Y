@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors Practice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header><h1>CSS Selectors Practice</h1><p>Examples of common selector types</p></header>
+    <main>
+        <section class="panel">
+            <h2>Element selector</h2>
+            <p>All paragraphs receive a base style from the element selector.</p>
+            <p class="highlight">Class selector: this paragraph uses the highlight class.</p>
+            <p id="special">ID selector: this paragraph has a unique ID.</p>
+        </section>
+        <section class="panel">
+            <h2>Attribute selector</h2>
+            <p><a href="https://example.com" target="_blank">A link that opens in a new tab</a></p>
+            <p><a href="#lists">A link to the list section</a></p>
+        </section>
+        <section class="panel" id="lists">
+            <h2>Combinator examples</h2>
+            <div class="list-box">
+                <p>This paragraph is inside the list box (descendant).</p>
+                <ul><li>Direct child list item</li><li>Another direct child item</li></ul>
+                <p class="after-list">This paragraph comes immediately after the list.</p>
+                <p>This paragraph comes later and is selected by ~.</p>
+            </div>
+        </section>
+    </main>
+    <footer><p>Use Inspect Element to explore the styles.</p></footer>
+</body>
+</html>

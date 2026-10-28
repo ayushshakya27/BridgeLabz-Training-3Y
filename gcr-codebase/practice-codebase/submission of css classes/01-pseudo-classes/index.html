@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-Classes Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="page-header">
+        <h1>CSS Pseudo-Classes</h1>
+        <p>Move your mouse or use the keyboard to see each state.</p>
+    </header>
+    <main class="examples">
+        <section class="example">
+            <h2>:hover</h2>
+            <a class="demo-link" href="#hover-info">Hover over this link</a>
+            <p id="hover-info">The link changes color when the pointer is over it.</p>
+        </section>
+        <section class="example">
+            <h2>:focus</h2>
+            <button class="focus-button">Click or tab to focus</button>
+            <p>A visible outline appears when the button receives focus.</p>
+        </section>
+        <section class="example">
+            <h2>:active</h2>
+            <button class="active-button">Press and hold</button>
+            <p>The button changes while it is being pressed.</p>
+        </section>
+        <section class="example">
+            <h2>:nth-child()</h2>
+            <ul class="color-list">
+                <li>First item</li><li>Second item</li><li>Third item</li><li>Fourth item</li>
+            </ul>
+            <p>Every even list item gets a different background.</p>
+        </section>
+    </main>
+    <footer><p>Practice page • HTML5 and CSS only</p></footer>
+</body>
+</html>

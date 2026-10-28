@@ -1,0 +1,17 @@
+* { box-sizing: border-box; }
+body { margin: 0; min-height: 100vh; font-family: Arial, sans-serif; color: #233044; background: #f2f6fc; }
+.page { min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 28px 18px; text-align: center; }
+h1 { margin-bottom: 8px; }
+.animation-grid { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; width: 100%; max-width: 1000px; margin-top: 25px; }
+.animation-card { flex: 1 1 260px; padding: 20px; background: white; border-radius: 13px; box-shadow: 0 5px 18px #1c35551a; overflow: hidden; }
+.animation-card h2 { margin-top: 0; font-size: 1.15rem; }
+.track { height: 70px; display: flex; align-items: center; background: #edf3fb; border-radius: 8px; padding: 8px; }
+.moving-box { width: 42px; height: 42px; border-radius: 8px; background: #176b87; animation: slide 2.5s ease-in-out infinite alternate; }
+@keyframes slide { from { transform: translateX(0); } to { transform: translateX(180px); } }
+.ball-area { height: 70px; display: flex; justify-content: center; align-items: flex-start; }
+.ball { width: 34px; height: 34px; border-radius: 50%; background: #f59e0b; animation: bounce 1s ease-in-out infinite; }
+@keyframes bounce { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(34px); } }
+.color-text { font-size: 1.7rem; font-weight: bold; animation: color-change 3s ease-in-out 0.4s infinite alternate; }
+@keyframes color-change { from { color: #176b87; } to { color: #b83280; } }
+.animation-card p:last-child { color: #63748a; }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; } }

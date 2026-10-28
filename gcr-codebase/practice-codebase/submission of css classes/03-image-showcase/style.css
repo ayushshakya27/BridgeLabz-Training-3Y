@@ -1,0 +1,15 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; color: #233044; background: #f4f7fb; }
+header, footer { text-align: center; padding: 22px 16px; }
+header h1 { margin-bottom: 6px; }
+.gallery { max-width: 1100px; margin: 0 auto; padding: 18px 24px 32px; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; }
+figure { margin: 0; overflow: hidden; background: white; border-radius: 13px; box-shadow: 0 7px 20px #1c35551a; }
+.photo { position: relative; overflow: hidden; }
+.photo img { display: block; width: 100%; height: 210px; object-fit: cover; transition: transform .3s ease-in-out; }
+.photo::after { content: ""; position: absolute; inset: 0; background: #000; opacity: 0; transition: opacity .3s ease-in-out; }
+figure:hover .photo img { transform: scale(1.1); }
+figure:hover .photo::after { opacity: .22; }
+figcaption { padding: 14px 16px; font-weight: bold; }
+footer { color: #607086; }
+@media (max-width: 900px) { .gallery { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 700px) { .gallery { grid-template-columns: 1fr; max-width: 520px; } .photo img { height: 240px; } }

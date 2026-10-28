@@ -1,0 +1,18 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; color: #233044; background: #f4f7fb; }
+header, footer { text-align: center; padding: 24px 16px; }
+header h1 { margin-bottom: 7px; }
+header p, footer { color: #66768a; }
+.effects { display: flex; justify-content: center; align-items: stretch; flex-wrap: wrap; gap: 22px; padding: 20px 24px 36px; }
+.effect-card { flex: 1 1 230px; max-width: 310px; padding: 26px 22px; text-align: center; background: white; border: 1px solid #e3eaf2; border-radius: 15px; box-shadow: 0 5px 16px #20395612; transition: transform .3s ease-in-out, box-shadow .3s ease-in-out; }
+.effect-card:hover { transform: translateY(-5px); box-shadow: 0 13px 28px #20395622; }
+.symbol { display: inline-grid; place-items: center; width: 54px; height: 54px; border-radius: 16px; background: #edf4ff; font-size: 1.8rem; }
+.effect-card h2 { margin: 16px 0 8px; }
+.effect-card p { min-height: 48px; color: #66768a; }
+.effect-button { margin-top: 12px; padding: 12px 16px; border: 0; border-radius: 8px; color: white; font: inherit; font-weight: bold; cursor: pointer; transition: transform .25s ease-in-out, background .25s ease-in-out, box-shadow .25s ease-in-out; }
+.effect-button:hover { transform: scale(1.06); box-shadow: 0 7px 14px #20395630; }
+.effect-button:focus-visible { outline: 3px solid #f59e0b; outline-offset: 4px; }
+.effect-button:active { transform: scale(.96); }
+.blue { background: #176b87; } .blue:hover { background: #10546b; }
+.purple { background: #7354a6; } .purple:hover { background: #5c408b; }
+.green { background: #16805d; } .green:hover { background: #106748; }

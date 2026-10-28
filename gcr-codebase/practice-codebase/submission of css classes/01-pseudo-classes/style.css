@@ -1,0 +1,18 @@
+/* General page styling */
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; color: #233044; background: #f3f6fb; line-height: 1.5; }
+.page-header, footer { text-align: center; padding: 22px 16px; background: #183153; color: white; }
+.page-header h1 { margin: 0 0 6px; }
+.examples { display: flex; align-items: stretch; justify-content: center; gap: 18px; padding: 28px; flex-wrap: wrap; }
+.example { flex: 1 1 220px; max-width: 280px; padding: 20px; background: white; border-radius: 12px; box-shadow: 0 4px 14px #1c35551a; }
+.example h2 { margin-top: 0; color: #176b87; }
+.demo-link { color: #175cd3; font-weight: bold; }
+.demo-link:hover { color: #c2410c; background: #fff0e8; }
+button { padding: 10px 14px; border: 0; border-radius: 7px; cursor: pointer; background: #dceafe; color: #183153; }
+.focus-button:focus { outline: 3px solid #f59e0b; outline-offset: 3px; }
+.active-button:active { background: #176b87; color: white; transform: scale(.96); }
+.color-list { padding-left: 22px; }
+.color-list li { padding: 5px; border-radius: 4px; }
+.color-list li:nth-child(even) { background: #dceafe; }
+footer { margin-top: 12px; }
+@media (max-width: 600px) { .examples { padding: 16px; } .example { max-width: none; } }

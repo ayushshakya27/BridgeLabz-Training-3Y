@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box-Sizing Comparison</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header><h1>Understanding box-sizing</h1><p>Compare how the same width behaves with padding.</p></header>
+    <main class="comparison">
+        <section class="example content-box">
+            <h2>content-box</h2>
+            <div class="demo-box">Width: 260px<br>Padding: 24px<br>Border: 4px</div>
+            <p>With the default <code>content-box</code>, padding and border are added outside the set width. Total width is 260 + 48 + 8 = <strong>316px</strong>.</p>
+        </section>
+        <section class="example border-box">
+            <h2>border-box</h2>
+            <div class="demo-box">Width: 260px<br>Padding: 24px<br>Border: 4px</div>
+            <p>With <code>border-box</code>, padding and border are included in the set width. The total width stays <strong>260px</strong>.</p>
+        </section>
+    </main>
+    <footer><p>Tip: many websites use <code>box-sizing: border-box</code> for easier sizing.</p></footer>
+</body>
+</html>

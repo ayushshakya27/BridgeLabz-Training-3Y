@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Tooltip Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="page">
+        <h1>Tooltip Demonstration</h1>
+        <p>Hover over each item to reveal a helpful note.</p>
+        <section class="tooltip-row" aria-label="Tooltip examples">
+            <span class="tip-wrap"><button class="tip-target">⌕ Search</button><span class="tooltip">Find content on this page</span></span>
+            <span class="tip-wrap"><button class="tip-target">★ Save</button><span class="tooltip">Keep this item for later</span></span>
+            <span class="tip-wrap"><a class="tip-target" href="#help">Help</a><span class="tooltip">Open help information</span></span>
+            <span class="tip-wrap"><span class="tip-target word">CSS</span><span class="tooltip">Cascading Style Sheets</span></span>
+        </section>
+        <p id="help" class="note">Tooltips are created with CSS positioning and opacity transitions.</p>
+    </main>
+</body>
+</html>

@@ -1,0 +1,14 @@
+/* Simple Theme Customization */
+:root {
+  --bs-primary: #8b4d36;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #faf7f2;
+}
+
+.blog-img {
+  height: 220px;
+  object-fit: cover;
+}

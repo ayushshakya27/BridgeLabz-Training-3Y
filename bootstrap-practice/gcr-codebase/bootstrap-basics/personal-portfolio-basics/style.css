@@ -1,0 +1,10 @@
+/* Basic Custom Styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.profile-photo {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+}

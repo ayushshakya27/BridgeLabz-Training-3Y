@@ -1,0 +1,8 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; color: white; text-align: center; }
+header { position: fixed; top: 0; left: 0; width: 100%; padding: 12px; background: rgba(20, 30, 50, .92); z-index: 2; }
+main { padding-top: 90px; }
+section { min-height: 65vh; display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 30px; }
+.linear { background: linear-gradient(120deg, #355cde, #9b5de5, #f15bb5); background-attachment: fixed; }
+.radial { background: radial-gradient(circle, #ffb703, #fb8500, #6a040f); }
+footer { position: fixed; bottom: 0; width: 100%; padding: 12px; background: rgba(20, 30, 50, .92); }

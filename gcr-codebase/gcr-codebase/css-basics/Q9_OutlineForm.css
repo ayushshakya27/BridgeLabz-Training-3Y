@@ -1,0 +1,9 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; color: #243447; background: #f4f7fa; }
+header, footer { text-align: center; padding: 18px; background: #243b53; color: white; }
+form { display: flex; flex-direction: column; gap: 12px; max-width: 420px; margin: 35px auto; padding: 25px; background: white; border-radius: 12px; box-shadow: 0 4px 16px rgba(0,0,0,.1); }
+input, textarea { width: 100%; padding: 10px; border: 1px solid #aab7c4; border-radius: 6px; font: inherit; }
+input:focus, textarea:focus { outline: 3px solid #4c9aff; outline-offset: 3px; border-color: #1769aa; }
+textarea { resize: vertical; }
+button { padding: 11px; border: 0; border-radius: 6px; color: white; background: #1769aa; cursor: pointer; }
+button:focus { outline: 3px dashed #e76f51; outline-offset: 4px; }

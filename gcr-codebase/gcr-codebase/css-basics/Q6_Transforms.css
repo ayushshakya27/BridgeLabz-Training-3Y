@@ -1,0 +1,10 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; text-align: center; background: #f5f7fb; color: #243447; }
+header, footer { padding: 18px; background: #243b53; color: white; }
+.transform-list { display: flex; flex-wrap: wrap; justify-content: center; gap: 55px; padding: 70px 20px; }
+.transform-list section { width: 150px; }
+.box { height: 110px; display: flex; justify-content: center; align-items: center; background: #8ecae6; border-radius: 10px; font-weight: bold; transition: all 0.4s ease; }
+.rotate:hover { transform: rotate(15deg); }
+.scale:hover { transform: scale(1.2); }
+.translate:hover { transform: translateY(-15px); }
+.skew:hover { transform: skew(10deg); }

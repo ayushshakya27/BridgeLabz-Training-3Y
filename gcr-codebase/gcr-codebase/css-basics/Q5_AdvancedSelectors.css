@@ -1,0 +1,16 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; line-height: 1.6; color: #243447; }
+header, footer { background: #243b53; color: white; text-align: center; padding: 15px; }
+main { max-width: 800px; margin: 25px auto; padding: 0 20px; }
+.intro p { background: #eef6ff; padding: 10px; }
+.intro > p { border-left: 4px solid #2878b5; }
+.intro p + p { color: #7b2cbf; }
+.intro p ~ p { font-weight: bold; }
+.items li:nth-child(odd) { background: #e8f4ea; }
+.items li:hover { background: #ffe8a1; }
+a[href^="https"] { color: #086788; display: inline-block; margin: 8px; }
+input[type="text"] { border: 2px solid #2878b5; padding: 9px; }
+input:focus { outline: 2px solid #f4a261; }
+.items li::before { content: "• "; color: #d1495b; font-weight: bold; }
+.links::after { content: " Links use attribute selectors."; color: #555; }
+main section { margin-bottom: 24px; }

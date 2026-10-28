@@ -1,0 +1,15 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; color: #283747; background: #f7f8fa; }
+header, footer { text-align: center; padding: 18px; background: #243b53; color: white; }
+main { max-width: 800px; margin: 30px auto; padding: 0 22px; }
+article { background: white; padding: 28px; border-radius: 10px; }
+h1, h2 { letter-spacing: 1px; }
+p { font-size: 17px; line-height: 1.8; text-align: justify; letter-spacing: .2px; }
+.serif { font-family: Georgia, serif; font-weight: 500; }
+.sans { font-family: Arial, sans-serif; font-size: 1.1em; }
+article p::first-letter { font-size: 1.7em; font-weight: bold; color: #2878b5; }
+article p:first-of-type::first-line { color: #365f91; }
+strong { color: #b42318; }
+em { color: #6a3dad; }
+mark { background: #ffdf80; color: #352800; padding: 2px 4px; }
+footer { margin-top: 30px; }
